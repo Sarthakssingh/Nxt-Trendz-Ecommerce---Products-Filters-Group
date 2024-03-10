@@ -1,0 +1,111 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-bar {
+  padding: 10;
+  margin-top: 10px;
+  display: flex;
+}
+.filter-input {
+  outline: none;
+  border: none;
+  width: 250px;
+  background-color: #f1f5f9;
+  height: 40px;
+  padding: 5px;
+  padding-left: 9px;
+  font-size: 20px;
+  color: #475569;
+  margin: 0;
+}
+.search-icon {
+  color: #475569;
+  margin-top: 5px;
+}
+.search-icon-box {
+  background-color: #f1f5f9;
+  height: 40px;
+  padding: 5px;
+}
+.category-heading {
+  font-size: 20px;
+  color: #12022f;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.category-container {
+  padding: 2px;
+  margin-top: 15px;
+}
+.category-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.category-button {
+  color: #475569;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+.container-li {
+  margin-top: 15px;
+}
+.rating-heading {
+  font-size: 20px;
+  color: #12022f;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.stars {
+  height: 40px;
+  /* width: 100px; */
+  margin-right: 8px;
+}
+.starts-containers {
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+.rating-span {
+  font-size: 15px;
+  font-weight: bold;
+  color: #475569;
+  padding: 0;
+  /* padding: 2px; */
+  margin: 0px;
+}
+.clear-filter {
+  background-color: transparent;
+  border: 2px solid #0967d2;
+  margin: 0;
+  margin-top: 30px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0967d2;
+}
+.rating-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+}
